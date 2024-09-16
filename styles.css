@@ -6,6 +6,47 @@
             padding: 0;
             background-color: #f4f4f9;
         }
+        .content-oscura 
+        {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: black;
+        }
+        
+        .bt1{
+            position: relative;
+            right: -40%;
+            color: white;
+            background-color: black;
+
+        }
+        
+
+        .col-left-oscura {
+            width: 30%;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .col-right-oscura {
+            width: 65%; /* Columna derecha más amplia */
+            background-color: black;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .bt2{
+            position: relative;
+            right: -40%;
+            color: black;
+            background-color: white;
+
+        }
 
         .header {
             text-align: center;
