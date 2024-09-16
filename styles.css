@@ -13,16 +13,23 @@
             padding: 20px;
             background-color: black;
         }
-        
-        .bt1{
+
+        .modo_claro{
             position: relative;
             right: -40%;
             color: white;
             background-color: black;
 
         }
-        
 
+        .modo_oscuro{
+            position: relative;
+            right: -40%;
+            color: black;
+            background-color: white;
+
+        }
+        
         .col-left-oscura {
             width: 30%;
             background-color: black;
@@ -40,13 +47,6 @@
             border-radius: 10px;
         }
 
-        .bt2{
-            position: relative;
-            right: -40%;
-            color: black;
-            background-color: white;
-
-        }
 
         .header {
             text-align: center;
@@ -139,4 +139,14 @@
                 width: 100%; /* Ajusta al 100% del ancho de la pantalla */
                 height: auto;
             }
+        }
+
+        /*barras de progreso*/
+        .carga{
+            display: flex;
+            position: relative;
+            width: 1vw;
+            height: 20px;
+            background: linear-gradient(145deg, #ffcb30b8, #f0c75e);
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6), -3px -3px 15px rgba(255, 255, 255, 0.7);
         }
